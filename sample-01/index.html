@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!--<link rel="icon" type="image/png" href="favicon.png">-->
+    <title>TSP sample-01</title>
+    <style type="text/css">
+      .container {
+        padding: 5px;
+      }
+      .container #canvas {
+        border: 1px solid gray;
+      }
+    </style>
+  </head>
+  <body>
+    <div>巡回セールスマン問題(Traveling Salesman Program)</div>
+    <div>焼きなまし法(Simulated Annealing)</div>
+    <div>sample-01</div>
+    <div class="container">
+      <canvas id="canvas" width="540" height="400"></canvas>
+    </div>
+    <button id="run" onclick="run()">Run!</button>
+    <div id="log"></div>
+
+    <script src="city.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
